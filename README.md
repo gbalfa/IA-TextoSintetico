@@ -58,7 +58,7 @@ run with `./launch-docker-gpu.sh $(pwd)`
 Para el uso de gpu es necesario nvidia-docker: https://github.com/NVIDIA/nvidia-docker
 
 ## Con cpu
-build with `ln -sf Dockerfile.gpu Dockerfile && docker build --network=host -t lstm-image-cpu .`
+build with `ln -sf Dockerfile.cpu Dockerfile && docker build --network=host -t lstm-image-cpu .`
 
 run with `./launch-docker-cpu.sh $(pwd)`
 
