@@ -1,4 +1,4 @@
-# ProyectoIADeepArt
+# LSTM
 Proyecto del curso Inteligencia Artificial.
 <!-- PROJECT LOGO -->
 <br />
