@@ -46,12 +46,12 @@ tensorflow/tensorflow:2.7.0-jupyter o tensorflow/tensorflow:2.7.0-gpu-jupyter
 para uso de gpu.
 
 ## Con gpu nvidia
-# build with `ln -sf Dockerfile.gpu Dockerfile && docker build --network=host -t lstm-image .`
-# run with `./launch-docker-gpu.sh $(pwd)`
+build with `ln -sf Dockerfile.gpu Dockerfile && docker build --network=host -t lstm-image .`
+run with `./launch-docker-gpu.sh $(pwd)`
 
 ## Con cpu
-# build with `ln -sf Dockerfile.gpu Dockerfile && docker build --network=host -t lstm-image-cpu .`
-# run with `./launch-docker-cpu.sh $(pwd)`
+build with `ln -sf Dockerfile.gpu Dockerfile && docker build --network=host -t lstm-image-cpu .`
+run with `./launch-docker-cpu.sh $(pwd)`
 
 <!-- COMO EMPEZAR-->
 ## Prerequisitos
